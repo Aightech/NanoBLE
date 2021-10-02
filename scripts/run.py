@@ -17,7 +17,7 @@ timestamps = [ [], [], []]
 handles = {}
 running = True
 recording = False
-files = [open("datax.txt", "a"), open("datay.txt", "a"), open("dataz.txt", "a")]
+files = [open("datax.csv", "a"), open("datay.csv", "a"), open("dataz.csv", "a")]
 
 # callback called when characteristics value has chenged 
 def handle_rx(h: int, data: bytearray):
