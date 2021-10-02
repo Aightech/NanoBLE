@@ -2,7 +2,7 @@
 #include <ArduinoBLE.h>
 #include <Arduino_LSM6DS3.h>//Arduino IOT
 
-#define DEBUG
+//#define DEBUG
 
 #ifdef DEBUG
 #define debug(x) Serial.print(x)
